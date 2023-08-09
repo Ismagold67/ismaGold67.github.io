@@ -1,0 +1,26 @@
+:host{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+button{
+  border: none;
+  border-radius: 50px;
+  background: #FF002E;
+
+  font-size: 16px;
+  color: #fff;
+
+  width: 60%;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background: #ff002fcc;
+  transition: .1s;
+  padding: 12px;
+  width: 62%;
+}
